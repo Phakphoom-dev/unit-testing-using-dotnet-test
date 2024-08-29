@@ -1,0 +1,61 @@
+# Ignore build outputs
+/bin/
+/obj/
+/out/
+/artifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.vs/
+.vs/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# Include if you have NuGet packages
+*.nupkg
+*.snupkg
+*.nuget/
+
+# Exclude specific project directories (bin, obj)
+**/bin/
+**/obj/
+
+# Application insights telemetry (if you use it)
+ApplicationInsights.config
+
+# Entity Framework Core migrations folder (optional)
+Migrations/
+
+# Rider files
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+*.iws
+*.iml
+*.ipr
